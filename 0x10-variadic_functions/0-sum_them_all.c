@@ -1,9 +1,12 @@
 #include "variadic_functions.h"
+#include <stdio.h>
+
 /**
  * sum_them_all - sums the arguments passed into it
  * @n: number of arguments
  * Return: The sum, 0 if n == 0
  */
+
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list arglist;
